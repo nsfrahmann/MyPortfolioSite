@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
-<html lang="zxx">
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <!-- metas -->
     <meta charset="utf-8">
@@ -14,24 +14,40 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- plugin CSS -->
-    <link href="Content/bootstrap.min.css" rel="stylesheet">
-    <link href="Content/all.min.css" rel="stylesheet">
-    <link href="Content/et-line-style.css" rel="stylesheet">
-    <link href="Content/themify-icons.css" rel="stylesheet">
-    <link href="Content/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="Content/magnific-popup.css" rel="stylesheet">
-    <link href="Content/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-    <link href="Content/jquery.pagepiling.min.css" rel="stylesheet">
-    <link href="Content/cssTest.css" rel="stylesheet" />
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/plugin/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="static/plugin/et-line/style.css" rel="stylesheet">
+    <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
+    <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
+    <link href="static/plugin/scroll/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="static/plugin/pagepiling/jquery.pagepiling.min.css" rel="stylesheet">
     <!-- theme css -->
-    <link href="Content/style.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <style id="8u8nzkvsqm6o8bipcbloh">
+        @keyframes blink-8u8nzkvsqm6o8bipcbloh {
+            0% {
+                opacity: 0
+            }
 
+            49% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+        }
+
+        [data-typeitid='8u8nzkvsqm6o8bipcbloh'] .ti-cursor {
+            animation: blink-8u8nzkvsqm6o8bipcbloh 1s infinite;
+        }
+    </style>
 </head>
-<!-- Body Start -->
-
-<body>
+<body class="pp-viewing-home">
     <!-- page loading -->
-    <div id="loading">
+    <div id="loading" style="display: none;">
         <div class="load-circle"><span class="one"></span></div>
     </div>
     <!-- End -->
@@ -53,53 +69,57 @@
     <!-- End Header -->
     <!-- nav bar -->
     <header class="header-left">
-        <div class="scroll-bar">
-            <div class="hl-top">
-                <div class="hl-logo">
-                    <div class="img">
-                        <img src="Images/about-me.jpg" title="" alt="">
+        <div class="scroll-bar mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;">
+            <div id="mCSB_1" class="mCustomScrollBox mCS-minimal mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0">
+                <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                    <div class="hl-top">
+                        <div class="hl-logo">
+                            <div class="img">
+                                <img src="static/img/about-me.jpg" title="" alt="" class="mCS_img_loaded">
+                            </div>
+                            <h5>Sergiobi</h5>
+                        </div>
                     </div>
-                    <h5>Sergiobi</h5>
+                    <ul class="nav nav-menu custom" id="pp-menu">
+                        <li class="active" data-menuanchor="home">
+                            <a class="nav-link" href="#home">
+                                <i class="ti-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li data-menuanchor="about" class="">
+                            <a class="nav-link" href="#about">
+                                <i class="ti-id-badge"></i>
+                                <span>About Me</span>
+                            </a>
+                        </li>
+                        <li data-menuanchor="services">
+                            <a class="nav-link" href="#services">
+                                <i class="ti-panel"></i>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li data-menuanchor="work">
+                            <a class="nav-link" href="#work">
+                                <i class="ti-bookmark-alt"></i>
+                                <span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li data-menuanchor="blog">
+                            <a class="nav-link" href="#blog">
+                                <i class="ti-layout-media-overlay-alt-2"></i>
+                                <span>Blogs</span>
+                            </a>
+                        </li>
+                        <li data-menuanchor="contactus">
+                            <a class="nav-link" href="#contactus">
+                                <i class="ti-map-alt"></i>
+                                <span>Contact Me</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <ul class="nav nav-menu" id="pp-menu">
-                <li class="active" data-menuanchor="home">
-                    <a class="nav-link" href="#home">
-                        <i class="ti-home"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li data-menuanchor="about">
-                    <a class="nav-link" href="#about">
-                        <i class="ti-id-badge"></i>
-                        <span>About Me</span>
-                    </a>
-                </li>
-                <li data-menuanchor="services">
-                    <a class="nav-link" href="#services">
-                        <i class="ti-panel"></i>
-                        <span>Services</span>
-                    </a>
-                </li>
-                <li data-menuanchor="work">
-                    <a class="nav-link" href="#work">
-                        <i class="ti-bookmark-alt"></i>
-                        <span>Portfolio</span>
-                    </a>
-                </li>
-                <li data-menuanchor="blog">
-                    <a class="nav-link" href="#blog">
-                        <i class="ti-layout-media-overlay-alt-2"></i>
-                        <span>Blogs</span>
-                    </a>
-                </li>
-                <li data-menuanchor="contactus">
-                    <a class="nav-link" href="#contactus">
-                        <i class="ti-map-alt"></i>
-                        <span>Contact Me</span>
-                    </a>
-                </li>
-            </ul>
+            </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 0px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div>
         </div>
         <div class="nav justify-content-center social-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -111,42 +131,50 @@
     </header>
     <!-- End nav bar -->
     <!-- Main Start -->
-    <main class="main-left pp-main-section">
+    <main class="main-left pp-main-section" style="overflow: hidden; touch-action: none;">
         <!-- Home -->
-            <section id="home" data-nav-tooltip="Home" class="pp-section pp-scrollable">
-                <div class="home-banner">
-                    <div class="container">
-                        <div class="row full-screen align-items-center">
-                            <div class="col-lg-6">
-                                <div class="type-box">
-                                    <h6>Hello, I am</h6>
-                                    <h1 class="font-alt">Sergio Gadot</h1>
-                                    <p class="lead">I Am Passionate <span id="type-it"></span></p>
-                                    <p class="desc">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
-                                    <div class="btn-bar">
-                                        <a class="px-btn px-btn-theme" href="#">Donwload CV</a>
-                                    </div>
+        <section id="home" data-nav-tooltip="Home" class="pp-section pp-scrollable pp-easing active" data-anchor="home" style="z-index: 6; transform: translate3d(0px, 0px, 0px);">
+            <div class="glitch-box">
+                <div class="glitch back" style="background-image: url(&quot;static/img/home-banner-1.jpg&quot;); z-index: 5;"></div><div class="glitch front-1" style="background-image: url(&quot;static/img/home-banner-1.jpg&quot;); z-index: 6; clip: rect(1614px, 9999px, 564px, 0px); right: 1px; left: 15px;"></div><div class="glitch front-2" style="background-image: url(&quot;static/img/home-banner-1.jpg&quot;); z-index: 7; clip: rect(192px, 9999px, 22px, 0px); left: 22px; right: 20px; transform: scale(1);"></div><div class="glitch front-3" style="background-image: url(&quot;static/img/home-banner-1.jpg&quot;); z-index: 8; mix-blend-mode: hue; clip: rect(1896px, 9999px, 1147px, 0px); left: 35px; right: 25px; transform: scale(1);"></div>
+            </div>
+            <div class="home-banner-01">
+                <div class="container">
+                    <div class="row full-screen align-items-center justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="type-box">
+                                <div class="img">
+                                    <img src="static/img/home-banner.png" title="" alt="">
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="hb-img">
-                                    <img src="Images/home-banner.png" title="" alt="">
+                                <h1 class="font-alt">Sergio Gadot</h1>
+                                <p class="lead">
+                                    I Am <span id="type-it" data-typeitid="8u8nzkvsqm6o8bipcbloh">
+                                        <span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-container">Fre</span>
+                                        <span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-cursor">|</span>
+                                    </span>
+                                </p>
+                                <div class="nav justify-content-center social-icons">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
         <!-- End Home -->
         <!-- about us -->
-        <section id="about" data-nav-tooltip="About" class="pp-section pp-scrollable section counter">
+        <section id="about" data-nav-tooltip="About" class="pp-section pp-scrollable section counter pp-easing" data-anchor="about" style="z-index: 5; transform: translate3d(0px, 0px, 0px);">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 m-15px-tb">
                         <div class="about-me">
                             <div class="img">
                                 <div class="img-in">
-                                    <img src="Images/about-me.png" title="" alt="">
+                                    <img src="static/img/about-me.png" title="" alt="">
                                 </div>
                             </div>
                         </div>
@@ -157,8 +185,8 @@
                                 <h3>About me.</h3>
                             </div>
                             <div class="about-text">
-                                <h3>I'm a Freelancer Front-end Developer with over 5 years of experience. </h3>
-                                <p>I'm a Freelancer Front-end Developer with over 5 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+                                <h3>I'm a Freelancer Front-end Developer with over 3 years of experience. </h3>
+                                <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
                                 <div class="row">
                                     <div class="col-auto">
                                         <div class="media align-items-center">
@@ -166,7 +194,7 @@
                                                 5k
                                             </span>
                                             <div class="media-body">
-                                                Projects <br />Completed.
+                                                Projects <br>Completed.
                                             </div>
                                         </div>
                                     </div>
@@ -176,7 +204,7 @@
                                                 3k
                                             </span>
                                             <div class="media-body">
-                                                Satisfied <br />Clients.
+                                                Satisfied <br>Clients.
                                             </div>
                                         </div>
                                     </div>
@@ -191,7 +219,7 @@
                 </div>
                 <div class="separated"></div>
                 <div class="title">
-                    <h3>Education & Skills</h3>
+                    <h3>Education &amp; Skills</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 m-15px-tb">
@@ -221,7 +249,7 @@
                                 <h6>HTML5</h6>
                                 <div class="skill-bar">
                                     <div class="skill-bar-in" style="width: 92%;">
-                                        <span data-toggle="tooltip" title="92%"></span>
+                                        <span data-toggle="tooltip" title="" data-original-title="92%"></span>
                                     </div>
                                 </div>
                             </div><!-- /skill -->
@@ -229,7 +257,7 @@
                                 <h6>WordPress</h6>
                                 <div class="skill-bar">
                                     <div class="skill-bar-in" style="width: 72%;">
-                                        <span data-toggle="tooltip" title="72%"></span>
+                                        <span data-toggle="tooltip" title="" data-original-title="72%"></span>
                                     </div>
                                 </div>
                             </div><!-- /skill -->
@@ -237,7 +265,7 @@
                                 <h6>Magento</h6>
                                 <div class="skill-bar">
                                     <div class="skill-bar-in" style="width: 86%;">
-                                        <span data-toggle="tooltip" title="86%"></span>
+                                        <span data-toggle="tooltip" title="" data-original-title="86%"></span>
                                     </div>
                                 </div>
                             </div><!-- /skill -->
@@ -245,7 +273,7 @@
                                 <h6>UI/UX</h6>
                                 <div class="skill-bar">
                                     <div class="skill-bar-in" style="width: 88%;">
-                                        <span data-toggle="tooltip" title="88%"></span>
+                                        <span data-toggle="tooltip" title="" data-original-title="88%"></span>
                                     </div>
                                 </div>
                             </div><!-- /skill -->
@@ -261,7 +289,7 @@
                         <div class="row">
                             <div class="col-sm-3 col-md-3 col-xl-2">
                                 <div class="rb-left">
-                                    <img src="Images/a1.png" title="" alt="">
+                                    <img src="static/img/a1.png" title="" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-9 col-md-9 col-xl-10">
@@ -278,7 +306,7 @@
                         <div class="row">
                             <div class="col-sm-3 col-md-3 col-xl-2">
                                 <div class="rb-left">
-                                    <img src="Images/a1.png" title="" alt="">
+                                    <img src="static/img/a1.png" title="" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-9 col-md-9 col-xl-10">
@@ -295,7 +323,7 @@
                         <div class="row">
                             <div class="col-sm-3 col-md-3 col-xl-2">
                                 <div class="rb-left">
-                                    <img src="Images/a1.png" title="" alt="">
+                                    <img src="static/img/a1.png" title="" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-9 col-md-9 col-xl-10">
@@ -313,7 +341,7 @@
         </section>
         <!-- End about us -->
         <!-- Services -->
-        <section id="services" data-nav-tooltip="Services" class="pp-section pp-scrollable section">
+        <section id="services" data-nav-tooltip="Services" class="pp-section pp-scrollable section pp-easing" data-anchor="services" style="z-index: 4; transform: translate3d(0px, 0px, 0px);">
             <div class="container">
                 <div class="title">
                     <h3>What I do?</h3>
@@ -378,53 +406,110 @@
                 <div class="title">
                     <h3>Testimonials.</h3>
                 </div>
-                <div class="owl-carousel" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30" data-autoplay="true">
-                    <div class="testimonial-01 media">
-                        <div class="avatar">
-                            <img src="Images/team-1.jpg" title="" alt="">
+                <div class="owl-carousel owl-loaded owl-drag" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30" data-autoplay="true">
+
+
+
+
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(-1647px, 0px, 0px); transition: all 0s ease 0s; width: 4392px;">
+                            <div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                <div class="testimonial-01 media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <h6>Jennifer Lutheran</h6>
+                                        <span>CEO at pxdraft</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-01 media">
-                        <div class="avatar">
-                            <img src="Images/team-1.jpg" title="" alt="">
-                        </div>
-                        <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-01 media">
-                        <div class="avatar">
-                            <img src="Images/team-1.jpg" title="" alt="">
-                        </div>
-                        <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-01 media">
-                        <div class="avatar">
-                            <img src="Images/team-1.jpg" title="" alt="">
-                        </div>
-                        <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
-                        </div>
-                    </div>
+                    </div><div class="owl-nav disabled"><div class="owl-prev"><i class="ti-arrow-left"></i></div><div class="owl-next"><i class="ti-arrow-right"></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
                 </div>
             </div>
         </section>
         <!-- End Services -->
         <!-- Portfolio -->
-        <section id="work" data-nav-tooltip="Work" class="pp-section pp-scrollable section dark-bg">
+        <section id="work" data-nav-tooltip="Work" class="pp-section pp-scrollable section dark-bg pp-easing" data-anchor="work" style="z-index: 3; transform: translate3d(0px, 0px, 0px);">
             <div class="container">
                 <div class="title">
                     <h3>My Portfolio.</h3>
@@ -438,145 +523,145 @@
                         <li data-filter=".product">Product</li>
                     </ul>
                 </div> <!-- Portfolio Filter -->
-                <div class="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-                    <div class="grid-item product branding fashion">
+                <div class="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery" style="position: relative; height: 1091.95px;">
+                    <div class="grid-item product branding fashion" style="position: absolute; left: 0px; top: 0px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item photoshop">
+                    <div class="grid-item photoshop" style="position: absolute; left: 363px; top: 0px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item product branding">
+                    <div class="grid-item product branding" style="position: absolute; left: 727px; top: 0px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item product photoshop">
+                    <div class="grid-item product photoshop" style="position: absolute; left: 0px; top: 363px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item branding">
+                    <div class="grid-item branding" style="position: absolute; left: 363px; top: 363px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item product photoshop">
+                    <div class="grid-item product photoshop" style="position: absolute; left: 727px; top: 363px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item fashion">
+                    <div class="grid-item fashion" style="position: absolute; left: 0px; top: 727px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item product branding">
+                    <div class="grid-item product branding" style="position: absolute; left: 363px; top: 727px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- grid item -->
-                    <div class="grid-item fashion">
+                    <div class="grid-item fashion" style="position: absolute; left: 727px; top: 727px;">
                         <div class="portfolio-box-01">
                             <div class="portfolio-info">
                                 <h5 class="white-color font-weight-bold">Momb ios App</h5>
                                 <span>Broadcasting ios App</span>
                             </div>
                             <div class="portfolio-img">
-                                <img src="Images/m-portfolio-2.jpg" title="" alt="">
+                                <img src="static/img/m-portfolio-2.jpg" title="" alt="">
                                 <div class="portfolio-icon">
-                                    <a href="Images/m-portfolio-2.jpg" class="gallery-link">
+                                    <a href="static/img/m-portfolio-2.jpg" class="gallery-link">
                                         <span class="ti-plus"></span>
                                     </a>
                                 </div>
@@ -588,7 +673,7 @@
         </section>
         <!-- End Portfolio -->
         <!-- Blog -->
-        <section id="blog" data-nav-tooltip="Blog" class="pp-section pp-scrollable section">
+        <section id="blog" data-nav-tooltip="Blog" class="pp-section pp-scrollable section pp-easing" data-anchor="blog" style="z-index: 2; transform: translate3d(0px, 0px, 0px);">
             <div class="container">
                 <div class="title">
                     <h3>Latest Blog.</h3>
@@ -598,7 +683,7 @@
                         <div class="blog-grid">
                             <div class="blog-img">
                                 <a href="single-blog.html">
-                                    <img src="Images/blog-1.jpg" title="" alt="">
+                                    <img src="static/img/blog-1.jpg" title="" alt="">
                                 </a>
                             </div>
                             <div class="blog-info">
@@ -611,7 +696,7 @@
                         <div class="blog-grid">
                             <div class="blog-img">
                                 <a href="single-blog.html">
-                                    <img src="Images/blog-1.jpg" title="" alt="">
+                                    <img src="static/img/blog-1.jpg" title="" alt="">
                                 </a>
                             </div>
                             <div class="blog-info">
@@ -624,7 +709,7 @@
                         <div class="blog-grid">
                             <div class="blog-img">
                                 <a href="single-blog.html">
-                                    <img src="Images/blog-1.jpg" title="" alt="">
+                                    <img src="static/img/blog-1.jpg" title="" alt="">
                                 </a>
                             </div>
                             <div class="blog-info">
@@ -637,7 +722,7 @@
                         <div class="blog-grid">
                             <div class="blog-img">
                                 <a href="single-blog.html">
-                                    <img src="Images/blog-1.jpg" title="" alt="">
+                                    <img src="static/img/blog-1.jpg" title="" alt="">
                                 </a>
                             </div>
                             <div class="blog-info">
@@ -654,7 +739,7 @@
         </section>
         <!-- End Blog -->
         <!-- Contact us -->
-        <section id="contactus" data-nav-tooltip="Contact Me" class="pp-section pp-scrollable section dark-bg">
+        <section id="contactus" data-nav-tooltip="Contact Me" class="pp-section pp-scrollable section dark-bg pp-easing" data-anchor="contactus" style="z-index: 1; transform: translate3d(0px, 0px, 0px);">
             <div class="container">
                 <div class="title">
                     <h3>Get in touch.</h3>
@@ -730,24 +815,29 @@
     </main>
     <!-- End Main -->
     <!-- jquery -->
-    <script src="Scripts/jquery-3.2.1.min.js"></script>
-    <script src="Scripts/jquery-migrate-3.0.0.min.js"></script>
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/jquery-migrate-3.0.0.min.js"></script>
     <!-- end jquery -->
     <!-- appear -->
-    <script src="Scripts/jquery.appear.js"></script>
+    <script src="static/plugin/appear/jquery.appear.js"></script>
     <!-- end appear -->
     <!--bootstrap-->
-    <script src="Scripts/popper.min.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+    <script src="static/plugin/bootstrap/js/bootstrap.js"></script>
     <!--end bootstrap-->
-    <script src="Scripts/jquery.pagepiling.min.js"></script>
+    <script src="static/plugin/pagepiling/jquery.pagepiling.min.js"></script>
     <!-- End -->
     <!-- custom js -->
-    <script src="Scripts/custom.js"></script>
-    <script src="Scripts/mail_send.js"></script>
-    <script src="Scripts/jsTest.js"></script>
+    <script src="static/js/custom.js"></script>
+    <script src="static/js/mail_send.js"></script>
     <!-- end -->
-</body>
-<!-- Body End -->
+    <!-- Body End -->
 
+    <script type="text/javascript" src="static/plugin/scroll/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="static/plugin/magnific/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="static/plugin/typeit-master/typeit.min.js"></script>
+    <!--<script type="text/javascript" src="static/plugin/glitch/mgGlitch.min.js"></script>-->
+    <script type="text/javascript" src="static/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="static/plugin/isotope/isotope.pkgd.min.js"></script>
+</body>
 </html>

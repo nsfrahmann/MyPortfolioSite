@@ -67,37 +67,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\all.min.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\cssTest.css" />
-    <Content Include="Content\et-line-style.css" />
-    <Content Include="Content\jquery.mCustomScrollbar.min.css" />
-    <Content Include="Content\jquery.pagepiling.min.css" />
-    <Content Include="Content\magnific-popup.css" />
-    <Content Include="Content\owl.carousel.min.css" />
-    <Content Include="Content\style.css" />
-    <Content Include="Content\StyleSheet2.css" />
-    <Content Include="Content\themify-icons.css" />
-    <Content Include="Images\a1.png" />
-    <Content Include="Images\about-me.jpg" />
-    <Content Include="Images\about-me.png" />
-    <Content Include="Images\blog-1.jpg" />
-    <Content Include="Images\home-banner-1.jpg" />
-    <Content Include="Images\home-banner-2.jpg" />
-    <Content Include="Images\home-banner.png" />
-    <Content Include="Images\m-portfolio-2.jpg" />
-    <Content Include="Images\single-blog.jpg" />
-    <Content Include="Images\team-1.jpg" />
-    <Content Include="index-video.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\custom.js" />
-    <Content Include="Scripts\jquery-3.2.1.min.js" />
-    <Content Include="Scripts\jquery-migrate-3.0.0.min.js" />
-    <Content Include="Scripts\jquery.appear.js" />
-    <Content Include="Scripts\jquery.pagepiling.min.js" />
-    <Content Include="Scripts\jsTest.js" />
-    <Content Include="Scripts\mail_send.js" />
-    <Content Include="Scripts\popper.min.js" />
+    <Content Include="index.html" />
+    <Content Include="static\css\style.css" />
+    <Content Include="static\img\a1.png" />
+    <Content Include="static\img\about-me.jpg" />
+    <Content Include="static\img\about-me.png" />
+    <Content Include="static\img\blog-1.jpg" />
+    <Content Include="static\img\home-banner-1.jpg" />
+    <Content Include="static\img\home-banner-2.jpg" />
+    <Content Include="static\img\home-banner.png" />
+    <Content Include="static\img\m-portfolio-2.jpg" />
+    <Content Include="static\img\single-blog.jpg" />
+    <Content Include="static\img\team-1.jpg" />
+    <Content Include="static\js\custom.js" />
+    <Content Include="static\js\jquery-3.2.1.min.js" />
+    <Content Include="static\js\jquery-migrate-3.0.0.min.js" />
+    <Content Include="static\js\mail_send.js" />
+    <Content Include="static\plugin\appear\jquery.appear.js" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.css" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.min.css" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.js" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.min.js" />
+    <Content Include="static\plugin\bootstrap\js\popper.min.js" />
+    <Content Include="static\plugin\et-line\et-line-style.css" />
+    <Content Include="static\plugin\et-line\fonts\et-line.svg" />
+    <Content Include="static\plugin\font-awesome\css\all.css" />
+    <Content Include="static\plugin\font-awesome\css\all.min.css" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.svg" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.svg" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.svg" />
+    <Content Include="static\plugin\glitch\mgGlitch.js" />
+    <Content Include="static\plugin\glitch\mgGlitch.min.js" />
+    <Content Include="static\plugin\isotope\isotope.pkgd.min.js" />
+    <Content Include="static\plugin\magnific\jquery.magnific-popup.js" />
+    <Content Include="static\plugin\magnific\jquery.magnific-popup.min.js" />
+    <Content Include="static\plugin\magnific\magnific-popup.css" />
+    <Content Include="static\plugin\owl-carousel\css\owl.carousel.css" />
+    <Content Include="static\plugin\owl-carousel\css\owl.carousel.min.css" />
+    <Content Include="static\plugin\owl-carousel\js\owl.carousel.js" />
+    <Content Include="static\plugin\owl-carousel\js\owl.carousel.min.js" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.css" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.js" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.min.css" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.min.js" />
+    <Content Include="static\plugin\particles\particles-app.js" />
+    <Content Include="static\plugin\particles\particles.js" />
+    <Content Include="static\plugin\particles\particles.min.js" />
+    <Content Include="static\plugin\scroll\jquery.mCustomScrollbar.css" />
+    <Content Include="static\plugin\scroll\jquery.mCustomScrollbar.min.css" />
+    <Content Include="static\plugin\scroll\jquery.mCustomScrollbar.min.js" />
+    <Content Include="static\plugin\scroll\jquery.mousewheel-3.0.6.min.js" />
+    <Content Include="static\plugin\scroll\jquery.mousewheel.min.js" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.svg" />
+    <Content Include="static\plugin\themify-icons\themify-icons.css" />
+    <Content Include="static\plugin\typeit-master\typeit.js" />
+    <Content Include="static\plugin\typeit-master\typeit.min.js" />
+    <Content Include="static\plugin\ytplayer\css\images\raster%402x.png" />
+    <Content Include="static\plugin\ytplayer\css\images\raster.png" />
+    <Content Include="static\plugin\ytplayer\css\images\raster_dot%402x.png" />
+    <Content Include="static\plugin\ytplayer\css\images\raster_dot.png" />
+    <Content Include="static\plugin\ytplayer\css\jquery.mb.YTPlayer.min.css" />
+    <Content Include="static\plugin\ytplayer\jquery.mb.YTPlayer.js" />
+    <Content Include="static\plugin\ytplayer\jquery.mb.YTPlayer.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +136,47 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="static\css\style.css.map" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.css.map" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.js.map" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="static\plugin\et-line\fonts\.DS_Store" />
+    <Content Include="static\plugin\et-line\fonts\et-line.eot" />
+    <Content Include="static\plugin\et-line\fonts\et-line.ttf" />
+    <Content Include="static\plugin\et-line\fonts\et-line.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.min.css.map" />
+    <Content Include="static\plugin\pagepiling\jquery.pagepiling.min.js.map" />
+    <Content Include="static\plugin\particles\particles.json" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.eot" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.ttf" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.woff" />
+    <Content Include="static\plugin\ytplayer\css\font\ytp-regular.eot" />
+    <Content Include="static\plugin\ytplayer\css\font\ytp-regular.ttf" />
+    <Content Include="static\plugin\ytplayer\css\font\ytp-regular.woff" />
+    <Content Include="static\scss\scss\base.scss" />
+    <Content Include="static\scss\scss\blog.scss" />
+    <Content Include="static\scss\scss\button.scss" />
+    <Content Include="static\scss\scss\color.scss" />
+    <Content Include="static\scss\scss\footer.scss" />
+    <Content Include="static\scss\scss\header.scss" />
+    <Content Include="static\scss\scss\mixin.scss" />
+    <Content Include="static\scss\scss\portfolio.scss" />
+    <Content Include="static\scss\scss\style.scss" />
+    <Content Include="static\scss\scss\variable.scss" />
+    <Content Include="static\scss\style.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,9 +184,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
