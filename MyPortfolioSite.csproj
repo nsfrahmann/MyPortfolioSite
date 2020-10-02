@@ -72,10 +72,18 @@
     <Content Include="static\img\a1.png" />
     <Content Include="static\img\about-me.jpg" />
     <Content Include="static\img\about-me.png" />
+    <Content Include="static\img\beekeeper.jpg" />
     <Content Include="static\img\black.jpg" />
     <Content Include="static\img\blog-1.jpg" />
+    <Content Include="static\img\blog1.jpg" />
+    <Content Include="static\img\blog2.jpg" />
+    <Content Include="static\img\blog3.png" />
+    <Content Include="static\img\blog4.jpg" />
+    <Content Include="static\img\blogicon.jpg" />
     <Content Include="static\img\bootstrapcopy.png" />
+    <Content Include="static\img\codechallenge.png" />
     <Content Include="static\img\dotnet.jpeg" />
+    <Content Include="static\img\Finance.jpg" />
     <Content Include="static\img\gitcopy.png" />
     <Content Include="static\img\home-banner-1.jpg" />
     <Content Include="static\img\home-banner-2.jpg" />
@@ -83,6 +91,8 @@
     <Content Include="static\img\html5.jpg" />
     <Content Include="static\img\HTML5_CSS_JavaScript1.png" />
     <Content Include="static\img\m-portfolio-2.jpg" />
+    <Content Include="static\img\PortfolioPic %282%29.jpg" />
+    <Content Include="static\img\PortfolioPic.jpg" />
     <Content Include="static\img\single-blog.jpg" />
     <Content Include="static\img\sql+copy.png" />
     <Content Include="static\img\sqlcopy.jpg" />
