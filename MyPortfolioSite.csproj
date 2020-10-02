@@ -83,6 +83,8 @@
     <Content Include="static\img\bootstrapcopy.png" />
     <Content Include="static\img\codechallenge.png" />
     <Content Include="static\img\dotnet.jpeg" />
+    <Content Include="static\img\favicon-32x32.png" />
+    <Content Include="static\img\favicon.ico" />
     <Content Include="static\img\Finance.jpg" />
     <Content Include="static\img\gitcopy.png" />
     <Content Include="static\img\home-banner-1.jpg" />
