@@ -72,10 +72,11 @@
     <Content Include="static\img\a1.png" />
     <Content Include="static\img\about-me.jpg" />
     <Content Include="static\img\about-me.png" />
+    <Content Include="static\img\black.jpg" />
     <Content Include="static\img\blog-1.jpg" />
     <Content Include="static\img\home-banner-1.jpg" />
     <Content Include="static\img\home-banner-2.jpg" />
-    <Content Include="static\img\home-banner.png" />
+    <Content Include="static\img\home-banner.jpg" />
     <Content Include="static\img\m-portfolio-2.jpg" />
     <Content Include="static\img\single-blog.jpg" />
     <Content Include="static\img\team-1.jpg" />
