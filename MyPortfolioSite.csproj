@@ -86,6 +86,7 @@
     <Content Include="static\img\favicon-32x32.png" />
     <Content Include="static\img\favicon.ico" />
     <Content Include="static\img\Finance.jpg" />
+    <Content Include="static\img\fizzbuzz %282%29.png" />
     <Content Include="static\img\fizzbuzz.png" />
     <Content Include="static\img\gitcopy.png" />
     <Content Include="static\img\home-banner-1.jpg" />
@@ -99,6 +100,9 @@
     <Content Include="static\img\single-blog.jpg" />
     <Content Include="static\img\sql+copy.png" />
     <Content Include="static\img\sqlcopy.jpg" />
+    <Content Include="static\img\sumofallfears.jpg" />
+    <Content Include="static\img\sunset-hills.png" />
+    <Content Include="static\img\tacocat.png" />
     <Content Include="static\img\team-1.jpg" />
     <Content Include="static\img\xamarin-logo.png" />
     <Content Include="static\img\xamarin.jpg" />

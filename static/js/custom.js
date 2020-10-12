@@ -123,7 +123,7 @@
                         resizable: false,
                         itemSelector: '.grid-item',
                         layoutMode: 'masonry',
-                        filter: '*'
+                        filter: '.branding'
                     });
                     //Filtering items on portfolio.html
                     var portfolioFilter = $('.filter li');
