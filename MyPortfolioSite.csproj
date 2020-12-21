@@ -72,14 +72,18 @@
     <Content Include="static\img\a1.png" />
     <Content Include="static\img\about-me.jpg" />
     <Content Include="static\img\about-me.png" />
+    <Content Include="static\img\BeeFavicon.svg" />
     <Content Include="static\img\beekeeper.jpg" />
+    <Content Include="static\img\BeeKeepLogo.svg" />
     <Content Include="static\img\black.jpg" />
+    <Content Include="static\img\blah-blog.svg" />
     <Content Include="static\img\blog-1.jpg" />
     <Content Include="static\img\blog1.jpg" />
     <Content Include="static\img\blog2.jpg" />
     <Content Include="static\img\blog3.png" />
     <Content Include="static\img\blog4.jpg" />
     <Content Include="static\img\blogicon.jpg" />
+    <Content Include="static\img\bloglogo.png" />
     <Content Include="static\img\bootstrapcopy.png" />
     <Content Include="static\img\codechallenge.png" />
     <Content Include="static\img\dotnet.jpeg" />
@@ -204,6 +208,7 @@
     <Content Include="static\scss\scss\style.scss" />
     <Content Include="static\scss\scss\variable.scss" />
     <Content Include="static\scss\style.scss" />
+    <Content Include="static\img\Nathan Frahmann Resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

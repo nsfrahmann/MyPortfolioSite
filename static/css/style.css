@@ -176,9 +176,19 @@ mark {
   color: #e8500d;
   box-shadow: 4px 4px #e8500d;
 }
+.px-btn.px-btn-theme:active {
+    transform: scale(.95);
+}
 .theme-light .px-btn.px-btn-theme:hover {
   background: #0b0b13;
   color: #fff;
+}
+div.social-icons a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px 0px rgba(255,255,255,.5);
+}
+div.social-icons a:active {
+    transform:scale(.95);
 }
 
 /* Bg color
@@ -305,6 +315,12 @@ mark {
   color: #e8500d;
   font-weight: 600;
 }
+
+.header-left .nav-menu li.active a.spec {
+    color: #e8500d;
+    font-weight: 600;
+}
+
 .theme-light .header-left .nav-menu li.active a {
   font-weight: 600;
   color: #e8500d;
@@ -1005,8 +1021,12 @@ mark {
   }
 }
 
+.pp-scrollable::-webkit-scrollbar {
+  display:none;
+}
+
 .pp-scrollable {
-  overflow: auto;
+    overflow-y: scroll;
 }
 
 .m-15px-tb {
