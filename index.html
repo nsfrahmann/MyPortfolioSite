@@ -14,7 +14,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico">
     <!-- plugin CSS -->
-    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
     <link href="static/plugin/font-awesome/css/all.min.css" rel="stylesheet">
     <link href="static/plugin/et-line/style.css" rel="stylesheet">
     <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
     <link href="static/plugin/scroll/jquery.mCustomScrollbar.min.css" rel="stylesheet">
     <link href="static/plugin/pagepiling/jquery.pagepiling.min.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet" />
     <!-- theme css -->
     <link href="static/css/style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
@@ -88,11 +89,12 @@
             }
 
             .nav-menu {
-                margin-top: -50px !important;
+                margin-top: -70px !important;
             }
     </style>
 </head>
 <body style="overflow:hidden !important">
+
     <div class="pp-viewing-home" style="overflow-y:scroll">
         <!-- page loading -->
         <div id="loading" style="display: flex;">
@@ -120,47 +122,50 @@
             <div class="scroll-bar mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;">
                 <div id="mCSB_1" class="mCustomScrollBox mCS-minimal mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0">
                     <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
-                        <div class="hl-top">
+                        <div class="hl-top" style="margin-top: -15px;">
                             <div class="hl-logo">
                                 <div class="img">
-                                    <img src="static/img/PortfolioPic (2).jpg" title="" alt="" class="mCS_img_loaded">
+                                    <img src="static/img/boom-headshot-closer.jpg" title="" alt="" class="mCS_img_loaded side-img">
                                 </div>
                                 <h5>Nathan Frahmann</h5>
+                                <h6 class="text-muted mt-2" style="font-size: .8rem">
+                                    #LookingForWork!
+                                </h6>
                             </div>
                         </div>
                         <ul class="nav nav-menu custom" id="pp-menu">
                             <li class="active" data-menuanchor="home">
-                                <a class="nav-link spec" href="#home">
-                                    <i class="ti-home spec"></i>
+                                <a class="nav-link" href="#home">
+                                    <i class="ti-home"></i>
                                     <span>Home</span>
                                 </a>
                             </li>
-                            <li data-menuanchor="about" class="">
-                                <a class="nav-link spec" href="#about">
-                                    <i class="ti-id-badge spec"></i>
+                            <li data-menuanchor="about">
+                                <a class="nav-link" href="#about">
+                                    <i class="ti-id-badge"></i>
                                     <span>About Me</span>
                                 </a>
                             </li>
-                            <li data-menuanchor="services">
-                                <a class="nav-link spec" href="#services">
-                                    <i class="ti-panel"></i>
-                                    <span>Services</span>
-                                </a>
-                            </li>
+                            <!--<li data-menuanchor="services">
+                            <a class="nav-link" href="#services">
+                                <i class="ti-panel"></i>
+                                <span>Services</span>
+                            </a>
+                        </li>-->
                             <li data-menuanchor="work">
-                                <a class="nav-link spec" href="#work">
+                                <a class="nav-link" href="#work">
                                     <i class="ti-bookmark-alt"></i>
                                     <span>Portfolio</span>
                                 </a>
                             </li>
                             <li data-menuanchor="blog">
-                                <a class="nav-link spec" href="#blog">
+                                <a class="nav-link" href="#blog">
                                     <i class="ti-layout-media-overlay-alt-2"></i>
                                     <span>Blogs</span>
                                 </a>
                             </li>
                             <li data-menuanchor="contactus">
-                                <a class="nav-link spec" href="#contactus">
+                                <a class="nav-link" href="#contactus">
                                     <i class="ti-map-alt"></i>
                                     <span>Contact Me</span>
                                 </a>
@@ -185,10 +190,10 @@
                         <div class="row full-screen align-items-center justify-content-center">
                             <div class="col-lg-6">
                                 <div class="type-box">
-                                    <div class="img" style="width: 70%; height: auto;">
-                                        <img src="static/img/PortfolioPic (2).jpg" title="" alt="">
+                                    <div class="img" style="width: 100%; height: 550px;">
+                                        <img src="static/img/boom-headshot.jpg" style="object-fit:cover;" title="" alt="">
                                     </div>
-                                    <h1 class="font-alt">Nathan Frahmann</h1>
+                                    <h1 class="font-alt" style="margin-top: -200px;">Nathan Frahmann</h1>
                                     <p class="lead">
                                         Who Am I?<br /> <span id="type-it" data-typeitid="8u8nzkvsqm6o8bipcbloh">
                                             <span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-container">Fre</span>
@@ -196,9 +201,9 @@
                                         </span>
                                     </p>
                                     <div class="nav justify-content-center social-icons">
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-github"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="home-social" href="#"><i style="font-size: 1.2rem; padding-top: 10px;" class="fab fa-linkedin-in"></i></a>
+                                        <a class="home-social" href="#"><i style="font-size: 1.2rem; padding-top: 10px;" class="fab fa-github"></i></a>
+                                        <a class="home-social" href="#"><i style="font-size: 1.2rem; padding-top: 10px;" class="fab fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -217,13 +222,13 @@
                                     <h3>About me.</h3>
                                 </div>
                                 <div class="about-text">
-                                    <h3>I'm a Freelance Full-Stack Web Developer. </h3>
-                                    <h6>I grew up in Southern California and now live in Phoenix, Arizona.<br /> I code and create web elements for amazing people around the world.<br /> I push creative solutions to <span class="italic">you</span> by staying on the cutting edge!</h6>
+                                    <h3>I'm a Full-Stack Web Developer. </h3>
+                                    <h6>I grew up in Southern California and now live in Phoenix, Arizona.<br /> I am currently looking for work in the Phoenix area, but I am willing to relocate for the right opportunity.<br /> In the meantime, I am continuing to sharpen my skills and pursuing freelancing opportunities.</h6>
                                     <div class="row">
                                         <div class="col-auto">
                                             <div class="media align-items-center">
                                                 <span class="count">
-                                                    3
+                                                    2
                                                 </span>
                                                 <div class="media-body">
                                                     Projects <br>Completed.
@@ -233,7 +238,7 @@
                                         <div class="col-auto">
                                             <div class="media align-items-center">
                                                 <span class="count">
-                                                    6
+                                                    4
                                                 </span>
                                                 <div class="media-body">
                                                     Coding Challenges <br>Solved.
@@ -264,14 +269,19 @@
                         <h3>Experience &amp; Education.</h3>
                     </div>
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="container">
+                            <a href="static/img/Nathan Frahmann.pdf" download>
+                                <div class="btn-bar px-btn px-btn-theme" id="resumeBtn">Download Resume</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-8" style="margin-top: -30px; z-index: -1;">
                             <div class="resume-box">
                                 <div class="resume-row">
                                     <div class="row">
                                         <div class="col-sm-3 col-md-3 col-xl-2">
-                                            <!--<div class="rb-left">
-                                                <img src="static/img/a1.png" title="" alt="">
-                                            </div>-->
+                                            <div class="img-container">
+                                                <img class="resume-img" src="static/img/coder-foundry.jfif" />
+                                            </div>
                                         </div>
                                         <div class="col-sm-9 col-md-9 col-xl-10">
                                             <div class="rb-right">
@@ -286,9 +296,9 @@
                                 <div class="resume-row">
                                     <div class="row">
                                         <div class="col-sm-3 col-md-3 col-xl-2">
-                                            <!--<div class="rb-left">
-                                                <img src="static/img/a1.png" title="" alt="">
-                                            </div>-->
+                                            <div class="img-container">
+                                                <img class="resume-img" src="static/img/chick-fil-a.png" />
+                                            </div>
                                         </div>
                                         <div class="col-sm-9 col-md-9 col-xl-10">
                                             <div class="rb-right">
@@ -303,34 +313,30 @@
                                 <div class="resume-row">
                                     <div class="row">
                                         <div class="col-sm-3 col-md-3 col-xl-2">
-                                            <!--<div class="rb-left">
-                                                <img src="static/img/a1.png" title="" alt="">
-                                            </div>-->
+                                            <div class="img-container">
+                                                <img class="resume-img" src="static/img/amazon.svg" />
+                                            </div>
                                         </div>
                                         <div class="col-sm-9 col-md-9 col-xl-10">
+
+
                                             <div class="rb-right">
-                                                <h6>HVAC Cleaning Technician</h6>
-                                                <label>AZ Odor Removal LLC | Phoenix &amp; surrounding | Jan 2018 - September 2019</label>
+                                                <h6>Amazon Associate</h6>
+                                                <label>Amazon | Phoenix | November 2018 - June 2020</label>
                                                 <div class="rb-time">Full Time</div>
-                                                <p>I was a Cleaning Technician for HVAC systems servicing customers all around Phoenix. I prioritized customer experience and interaction while maintaining a high-level of technical, detail work.</p>
+                                                <p>I was both a Warehouse and Delivery Associate for Amazon. I cross-trained to fill the needs of the station and excelled in being adaptable in a high stress and high expectation environment.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="container">
-                                <a href="static/img/Nathan Frahmann Resume.pdf" download>
-                                    <div class="btn-bar px-btn px-btn-theme m-15px-tb" id="resumeBtn">Download Resume</div>
-                                </a>
-                                
-                            </div>
                         </div>
                         <div class="col-lg-4 m-15px-tb">
                             <ul class="aducation-box">
                                 <li>
-                                    <span>2015-2016</span>
-                                    <h4>General Education</h4>
-                                    <p>California State University of San Bernardino<br />I completed 1 year of general coursework here.</p>
+                                    <span>2020</span>
+                                    <h4>Web and Software Development</h4>
+                                    <p>Coder Foundry<br />I completed a 3 month intensive bootcamp of immersive, hands-on training in several programming languages here. One of the hardest and most rewarding programs I've completed.</p>
                                 </li>
                                 <li>
                                     <span>2018-2019</span>
@@ -338,51 +344,67 @@
                                     <p>Grand Canyon University<br />I completed 1 year of coursework towards a Bachelors of Science in Mathematics here.</p>
                                 </li>
                                 <li>
-                                    <span>2020</span>
-                                    <h4>Web and Software Development</h4>
-                                    <p>Coder Foundry<br />I completed a 3 month intensive bootcamp of immersive, hands-on training in several programming languages here.</p>
+                                    <span>2015-2016</span>
+                                    <h4>General Education</h4>
+                                    <p>California State University of San Bernardino<br />I completed 1 year of general coursework here.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="separated"></div>
                     <div class="title">
-                        <h3>Skills.</h3>
+                        <h3>Skills and Web Languages.</h3>
                     </div>
                     <div class="skills-box">
-                        <h5 style="color: #ffffff; padding-bottom: 1em;">I'm proficient in HTML5, CSS3, Javascript, jQuery, C#, Xamarin, SQL, Bootstrap, and Git.</h5>
+                        <h5 style="color: #ffffff; padding-bottom: 1em;">I'm proficient in HTML5, CSS3, Sass, Javascript, jQuery, C#, LINQ, SQL, Bootstrap, and Git.</h5>
                         <div class="row">
                             <div class="col-12" style="padding-bottom: 2.5em;">
                                 <div class="row">
-                                    <div class="col-4">
-                                        <div>
-                                            <img src="static/img/dotnet.jpeg" width="100%" height="auto" />
+                                    <div class="col-4 first">
+                                        <div class="second">
+                                            <div class="front">
+                                                <img src="static/img/dotnet.jpeg" width="100%" height="auto" />
+                                            </div>
+                                            <div class="back" style="background-color:white"><p class="reader text-center">Microsoft's .NET platform, or more specifically ASP .NET Core, is a framework for developing cross-platform web applications written in C#. Using this framework, I've built 3 applications using the Model-View-Controller(MVC) architectural pattern.</p></div>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div>
-                                            <img src="static/img/html5.jpg" ; width="100%" ; height="auto" />
+                                    <div class="col-4 first">
+                                        <div class="second">
+                                            <div class="front">
+                                                <img src="static/img/html5.jpg" width="100%" height="auto" />
+                                            </div>
+                                            <div class="back" style="background-color:white"><p class="reader text-center">These are the big three when it comes to web development on the front-end. HTML is like the basic skeleton of a web page, then CSS adds the skin and features, and Javascript is the muscle handling the more dynamic elements. I know all of these well, including some of their lackeys such as the CSS preprocessor, Sass, and the Javascript library, jQuery.</p></div>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div>
-                                            <img src="static/img/sqlcopy.jpg" ; width="100%" ; height="auto" />
+                                    <div class="col-4 first">
+                                        <div class="second">
+                                            <div class="front">
+                                                <img src="static/img/sqlcopy.jpg" width="100%" height="auto" />
+                                            </div>
+                                            <div class="back" style="background-color:white"><p class="reader text-center">SQL is a language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables. I've become well acquainted with employing SQL database as well as PostgreSql while developing my applications.</p></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" style="margin-top: -50px;">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-4">
-                                        <img src="static/img/xamarin.jpg" width="100%" height="auto" />
+                                    <div class="offset-2 col-4 first">
+                                        <div class="second">
+                                            <div class="front">
+                                                <img src="static/img/bootstrapcopy.png" width="100%" height="auto" />
+                                            </div>
+                                            <div class="back" style="background-color:white"><p class="reader text-center">Bootstrap is the most widely used HTML, CSS, and Javascript library in the world. Their collection of code snippets and web elements streamline the development process and I owe them greatly for their clean and thorough documentation.</p></div>
+                                        </div>
                                     </div>
-                                    <div class="col-4">
-                                        <img src="static/img/bootstrapcopy.png" width="100%" height="auto" />
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="static/img/gitcopy.png" width="100%" height="auto" />
+                                    <div class="col-4 first">
+                                        <div class="second">
+                                            <div class="front">
+                                                <img src="static/img/gitcopy.png" width="100%" height="auto" />
+                                            </div>
+                                            <div class="back" style="background-color:white"><p class="reader text-center">Git is a popular Version Control System(VCS) that allows users to save snap-shots of project files instead of just catalogging file-based changes. This approach opens up developers to a much safer and efficient development process. I used the collaborative Git based service GitHub to manage my projects through development as well as work with a team in group projects.</p></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -391,158 +413,158 @@
                 </div>
             </section>
             <!-- End about us -->
-            <!-- Services -->
-            <section id="services" data-nav-tooltip="Services" class="pp-section pp-scrollable section pp-easing" data-anchor="services" style="z-index: 4; transform: translate3d(0px, 0px, 0px);">
-                <div class="container">
-                    <div class="title">
-                        <h3>What I do?</h3>
+            <!--Services
+                <section id="services" data-nav-tooltip="Services" class="pp-section pp-scrollable section pp-easing" data-anchor="services" style="z-index: 4; transform: translate3d(0px, 0px, 0px);">
+            <div class="container">
+                <div class="title">
+                    <h3>What I do?</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 m-15px-tb">
+                        <div class="feature-box-01 media">
+                            <i class="icon theme-bg icon-mobile"></i>
+                            <div class="feature-content media-body">
+                                <h5>Web Design</h5>
+                                <p>I work with people to dream-up the layout and user interface of a desired web or mobile project based on marketing research and current trends.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-6 m-15px-tb">
-                            <div class="feature-box-01 media">
-                                <i class="icon theme-bg icon-mobile"></i>
-                                <div class="feature-content media-body">
-                                    <h5>Web Design</h5>
-                                    <p>I work with people to dream-up the layout and user interface of a desired web or mobile project based on marketing research and current trends.</p>
-                                </div>
+                    <div class="col-sm-6 m-15px-tb">
+                        <div class="feature-box-01 media">
+                            <i class="icon theme-bg icon-desktop"></i>
+                            <div class="feature-content media-body">
+                                <h5>Web Development</h5>
+                                <p>I implement custom CSS and Javascript elements and/or enhance existing elements to make a project come to life.</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 m-15px-tb">
-                            <div class="feature-box-01 media">
-                                <i class="icon theme-bg icon-desktop"></i>
-                                <div class="feature-content media-body">
-                                    <h5>Web Development</h5>
-                                    <p>I implement custom CSS and Javascript elements and/or enhance existing elements to make a project come to life.</p>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 m-15px-tb">
+                        <div class="feature-box-01 media">
+                            <i class="icon theme-bg icon-target"></i>
+                            <div class="feature-content media-body">
+                                <h5>Database Development</h5>
+                                <p>I construct efficient databases with SQL and can provide support.</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 m-15px-tb">
-                            <div class="feature-box-01 media">
-                                <i class="icon theme-bg icon-target"></i>
-                                <div class="feature-content media-body">
-                                    <h5>Database Development</h5>
-                                    <p>I construct efficient databases with SQL and can provide support.</p>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 m-15px-tb">
+                        <div class="feature-box-01 media">
+                            <i class="icon theme-bg icon-mobile"></i>
+                            <div class="feature-content media-body">
+                                <h5>Application Development</h5>
+                                <p>I build practical and pretty web/mobile applications with C# and Xamarin.</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 m-15px-tb">
-                            <div class="feature-box-01 media">
-                                <i class="icon theme-bg icon-mobile"></i>
-                                <div class="feature-content media-body">
-                                    <h5>Application Development</h5>
-                                    <p>I build practical and pretty web/mobile applications with C# and Xamarin.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--<div class="separated"></div>
-                        <div class="title">
-                            <h3>Testimonials.</h3>
-                        </div>
-                        <div class="owl-carousel owl-loaded owl-drag" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30" data-autoplay="true">
+                    </div>
+                    <div class="separated"></div>
+                    <div class="title">
+                        <h3>Testimonials.</h3>
+                    </div>
+                    <div class="owl-carousel owl-loaded owl-drag" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30" data-autoplay="true">
 
 
 
 
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage" style="transform: translate3d(-1647px, 0px, 0px); transition: all 0s ease 0s; width: 4392px;">
-                                    <div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>this guy was on top of it!</p>
-                                                <h6>haley dennis</h6>
-                                                <span>recruiting at coderfoundry</span>
-                                            </div>
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-1647px, 0px, 0px); transition: all 0s ease 0s; width: 4392px;">
+                                <div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
                                         </div>
-                                    </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Favorite student of the cohort.</p>
-                                                <h6>Bobby Davis</h6>
-                                                <span>CEO at CoderFoundry</span>
-                                            </div>
+                                        <div class="media-body">
+                                            <p>this guy was on top of it!</p>
+                                            <h6>haley dennis</h6>
+                                            <span>recruiting at coderfoundry</span>
                                         </div>
-                                    </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                    </div>
+                                </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
                                         </div>
-                                    </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                        <div class="media-body">
+                                            <p>Favorite student of the cohort.</p>
+                                            <h6>Bobby Davis</h6>
+                                            <span>CEO at CoderFoundry</span>
                                         </div>
-                                    </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
                                         </div>
-                                    </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
                                         </div>
-                                    </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                    </div>
+                                </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
                                         </div>
-                                    </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
-                                        <div class="testimonial-01 media">
-                                            <div class="avatar">
-                                                <img src="static/img/team-1.jpg" title="" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                                <h6>Jennifer Lutheran</h6>
-                                                <span>CEO at pxdraft</span>
-                                            </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item active" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item cloned" style="width: 519px; margin-right: 30px;">
+                                    <div class="testimonial-01 media">
+                                        <div class="avatar">
+                                            <img src="static/img/team-1.jpg" title="" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <h6>Jennifer Lutheran</h6>
+                                            <span>CEO at pxdraft</span>
                                         </div>
                                     </div>
                                 </div>
-                            </div><div class="owl-nav disabled"><div class="owl-prev"><i class="ti-arrow-left"></i></div><div class="owl-next"><i class="ti-arrow-right"></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
-                        </div>-->
+                            </div>
+                        </div><div class="owl-nav disabled"><div class="owl-prev"><i class="ti-arrow-left"></i></div><div class="owl-next"><i class="ti-arrow-right"></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>-->
             <!-- End Services -->
             <!-- Portfolio -->
-            <section id="work" data-nav-tooltip="Work" class="pp-section pp-scrollable section dark-bg pp-easing" data-anchor="work" style="z-index: 3; transform: translate3d(0px, 0px, 0px);">
+            <section id="work" data-nav-tooltip="Work" class="pp-section pp-scrollable section counter pp-easing" data-anchor="work" style="z-index: 3; transform: translate3d(0px, 0px, 0px);">
                 <div class="container">
                     <div class="title">
                         <h3>My Portfolio.</h3>
@@ -553,86 +575,100 @@
                             <li data-filter=".photoshop">Challenges</li>
                             <li data-filter="*">All</li>
                             <!--<li data-filter=".fashion">Fashion</li>
-                            <li data-filter=".product">Product</li>-->
+                        <li data-filter=".product">Product</li>-->
                         </ul>
                     </div> <!-- Portfolio Filter -->
-                    <div class="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery" style="position: relative; height: 1091.95px;">
-                        <div class="grid-item product branding" style="position: absolute; left: 0px; top: 0px;">
+                    <div class="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
+                        <div class="grid-item product branding">
                             <div class="portfolio-box-01">
                                 <div class="portfolio-info">
                                     <h5 class="white-color font-weight-bold">BeeKeep</h5>
                                     <span>Bug Tracker App</span>
                                 </div>
                                 <div class="portfolio-img">
-                                    <img src="static/img/BeeFavicon.svg" style="height:353.98px; width:353.98px;">
+                                    <img src="static/img/BeeFavicon.svg" class="img">
                                     <div class="portfolio-icon">
-                                        <a href="static/img/beekeeper.jpg" class="gallery-link">
+                                        <a href="" data-toggle="modal" data-target="#beeModal">
                                             <span class="ti-plus"></span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div> <!-- grid item -->
-                        <div class="grid-item branding" style="position: absolute; left: 363px; top: 0px;">
+                        <div class="grid-item branding">
                             <div class="portfolio-box-01">
                                 <div class="portfolio-info">
                                     <h5 class="white-color font-weight-bold">Blah-Blog</h5>
                                     <span>Blog App</span>
                                 </div>
                                 <div class="portfolio-img">
-                                    <img src="static/img/blah-blog.svg" style="height:353.98px; width:353.98px;" />
+                                    <img src="static/img/blah-blog.svg" class="img" />
                                     <div class="portfolio-icon">
-                                        <a href="static/img/Finance.jpg" class="gallery-link">
+                                        <a href="" data-toggle="modal" data-target="#blogModal">
                                             <span class="ti-plus"></span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div> <!-- grid item -->
-                        <div class="grid-item photoshop" style="position: absolute; left: 363px; top: 363px;">
+                        <div class="grid-item photoshop">
+                            <div class="portfolio-box-01">
+                                <div class="portfolio-info">
+                                    <h5 class="white-color font-weight-bold">Dragon Mortgage</h5>
+                                    <span>A Group Coding Challenge</span>
+                                </div>
+                                <div class="portfolio-img">
+                                    <img src="static/img/dragonmort.svg" class="img" />
+                                    <div class="portfolio-icon">
+                                        <a href="" data-toggle="modal" data-target="#dragonModal">
+                                            <span class="ti-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- grid item -->
+                        <div class="grid-item photoshop">
                             <div class="portfolio-box-01">
                                 <div class="portfolio-info">
                                     <h5 class="white-color font-weight-bold">FizzBuzz</h5>
                                     <span>A Coding Challenge</span>
                                 </div>
                                 <div class="portfolio-img">
-                                    <a href="//nates-fizzbuzz-solution.netlify.app" target="_blank">
-                                        <img src="static/img/fizzbuzz (2).png" style="height:353.98px; width:353.98px;">
-                                    </a>
+                                    <img src="static/img/fizzbuzz (2).png" class="img" />
                                     <div class="portfolio-icon">
-                                        <a href="static/img/fizzbuzz (2).png" class="gallery-link">
+                                        <a href="" data-toggle="modal" data-target="#fizzModal">
                                             <span class="ti-plus"></span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div> <!-- grid item -->
-                        <div class="grid-item photoshop" style="position: absolute; left: 363px; top: 363px;">
+                        <div class="grid-item photoshop">
                             <div class="portfolio-box-01">
                                 <div class="portfolio-info">
                                     <h5 class="white-color font-weight-bold">Tacocat</h5>
                                     <span>A Coding Challenge</span>
                                 </div>
                                 <div class="portfolio-img">
-                                    <img src="static/img/tacocat.png" style="height:353.98px; width:353.98px;" title="" alt="">
+                                    <img src="static/img/tacocat.png" class="img">
                                     <div class="portfolio-icon">
-                                        <a href="static/img/tacocat.png" class="gallery-link">
+                                        <a href="" data-toggle="modal" data-target="#tacoModal">
                                             <span class="ti-plus"></span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div> <!-- grid item -->
-                        <div class="grid-item photoshop" style="position: absolute; left: 363px; top: 363px;">
+                        <div class="grid-item photoshop">
                             <div class="portfolio-box-01">
                                 <div class="portfolio-info">
                                     <h5 class="white-color font-weight-bold">Sunset Hills</h5>
                                     <span>A Coding Challenge</span>
                                 </div>
                                 <div class="portfolio-img">
-                                    <img src="static/img/sunset-hills.png" style="height:353.98px; width:353.98px;">
+                                    <img src="static/img/sunset-hills.png" class="img">
                                     <div class="portfolio-icon">
-                                        <a href="static/img/sunset-hills.png" class="gallery-link">
+                                        <a href="" data-toggle="modal" data-target="#sunModal">
                                             <span class="ti-plus"></span>
                                         </a>
                                     </div>
@@ -644,7 +680,7 @@
             </section>
             <!-- End Portfolio -->
             <!-- Blog -->
-            <section id="blog" data-nav-tooltip="Blog" class="pp-section pp-scrollable section pp-easing" data-anchor="blog" style="z-index: 2; transform: translate3d(0px, 0px, 0px);">
+            <section id="blog" data-nav-tooltip="Blogs" class="pp-section pp-scrollable section dark-bg pp-easing" data-anchor="blog" style="z-index: 2; transform: translate3d(0px, 0px, 0px);">
                 <div class="container">
                     <div class="title">
                         <h3>Latest Blog.</h3>
@@ -779,8 +815,348 @@
             <!-- End Contact us -->
         </main>
         <!-- End Main -->
-
-
+        <!--Bee Modal-->
+        <div class="modal fade" id="beeModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">BeeKeep Bug Tracker</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/BeeFavicon.svg" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    BeeKeep is a bug tracking application built in C# ASP .NET Core 3.1, designed to facilitate issue-tracking for teams on their projects. It accomplishes this with a comprehensive set of features including, but not limited to:
+                                    <ul class="bold" style="margin-top: -15px;">
+                                        <li>
+                                            User authentication and roles
+                                        </li>
+                                        <li>
+                                            Project and ticket tracking with full CRUD functionality
+                                        </li>
+                                        <li>
+                                            Informative and downloadable data tables
+                                        </li>
+                                        <li>
+                                            Ticket histories and analytics data
+                                        </li>
+                                        <li>
+                                            Comments and Notifications
+                                        </li>
+                                        <li>
+                                            Profile access and customization
+                                        </li>
+                                    </ul>
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Application</div>
+                                        <a href="//beekeep-bugtracker.herokuapp.com" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            BeeKeep
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/BugTracker" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">The brunt of this project was completed in a 4 week sprint. At the time, I was only 6 weeks into my journey and from starting out with no coding knowledge. With that in mind, this project should speak to my potential and learning ability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Bee Modal-->
+        <!--Blog Modal-->
+        <div class="modal fade" id="blogModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">Blah-Blog Blogger Hub</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/blah-blog.svg" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    Blah-Blog is a blogging application built in C# ASP .NET Core 3.1, designed to categorize, search, and showcase user articles. It accomplishes this with a comprehensive set of features including, but not limited to:
+                                    <ul class="bold" style="margin-top: -15px;">
+                                        <li>
+                                            User authentication and roles
+                                        </li>
+                                        <li>
+                                            Blog and post sorting with full CRUD functionality
+                                        </li>
+                                        <li>
+                                            Comments and Notifications
+                                        </li>
+                                        <li>
+                                            Tags for search functionality
+                                        </li>
+                                        <li>
+                                            Profile access and customization
+                                        </li>
+                                        <li>
+                                            Friend Requests
+                                        </li>
+                                    </ul>
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Application</div>
+                                        <a href="//blah-blogger.herokuapp.com" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            Blah-Blog
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/BlogMVC" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">This project was largely completed in a 3 week sprint after only 3 weeks of prior learning in HTML, CSS, and Javascript. It was my first experience with ASP .NET Core 3.1, MVC, and C#.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Blog Modal-->
+        <!--Dragon Modal-->
+        <div class="modal fade" id="dragonModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">Dragon Mortgage Calculator</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/dragonmort.svg" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    Dragon Mortgage is a front-end site designed to apply known mortgage formulas allowing users to see accurate calculations to inform their home purchase or plans for repayment. Some features include:
+                                    <ul class="bold" style="margin-top: -15px;">
+                                        <li>
+                                            Auto adjusting values tied to an easy-to-use slidebar
+                                        </li>
+                                        <li>
+                                            Download and print functionality
+                                        </li>
+                                    </ul>
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Website</div>
+                                        <a href="//dragon-mortgage.netlify.app" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            Dragon Mortgage
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/MortgageFinal" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">This was actually a group project. I was designated as team lead and worked remotely with two teammates. During this project, I learned a great deal about collaborating with a team through GitHub.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Dragon Modal-->
+        <!--Fizz Modal-->
+        <div class="modal fade" id="fizzModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">FizzBuzz Challenge</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/fizzbuzz (2).png" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    The Fizzbuzz coding challenge was invented in 2007 by Imran Ghoryin in order to assess developer competence.
+                                    <br /><br />
+                                    Since its conception the Fizzbuzz challenge has been used by Facebook and Microsoft as interview tools and has also been taught at Stanford, Berkley, Caltech and countless other universities.
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Website</div>
+                                        <a href="//nates-fizzbuzz-solution.netlify.app" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            FizzBuzz
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/FizzBuzz" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">This coding challenge and mini-site was really fun to build. I was nominated for Coder Foundry's Star Coder Award for this challenge solution. This was the first Javascript Challenge that really clicked for me.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Fizz Modal-->
+        <!--Taco Modal-->
+        <div class="modal fade" id="tacoModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">TacoCat Challenge</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/tacocat.png" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    The Taco Cat coding challenge is based on the more traditional “Reverse a string” exercise but ultimately determines if a word or phrase is a palindrome.
+                                    <br /><br />
+                                    The Reverse a string exercise in some form has been used by technology companies such as Amazon, Microsoft, VMware and Norton to assess a candidate’s ability to code an impromptu algorithm.
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Website</div>
+                                        <a href="//nates-tacocat-solution.netlify.app" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            TacoCat
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/NewTacoCat" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">This coding challenge and mini-site was my first Javascript challenge. It was fun to play with validation and be introduced to writing javascript algorithms in this way.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Taco Modal-->
+        <!--Sun Modal-->
+        <div class="modal fade" id="sunModal" style="z-index: 10000;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-top: -30px;">
+                        <h2 class="modal-title text-black" id="exampleModalLabel">Sunset Hills Challenge</h2>
+                        <button type="button" style="color: #e8500d" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow-x: hidden;">
+                        <div class="row text-black" style="margin-top :-25px;">
+                            <img class="modal-img col-5" src="static/img/sunset-hills.png" />
+                            <div class="modal-card col-7">
+                                <span>Description</span>
+                                <p class="description bold">
+                                    The Sunset Hills coding challenge is intended to assess a candidate’s ability to work with Arrays.
+                                    <br /><br />
+                                    This challenge or a slight variation has been used by technology companies such as Amazon and was also featured on a Geeks for Geeks blog post titled “Amazon Interview Experience | Set 189 (For SDE-1)”
+                                </p>
+                                <span style="margin-top: -10px;">Links</span>
+                                <div class="row mb-2" style="margin-top: -10px;">
+                                    <div class="offset-1 col-xl-5 col-12">
+                                        <div class="pl-2 bold">Live Website</div>
+                                        <a href="//nates-sunsethills-solution.netlify.app" target="_blank" class="modal-btn pl-2 ml-1 ">
+                                            Sunset Hills
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-5 offset-1 col-12">
+                                        <div class="bold">GitHub Repo</div>
+                                        <a href="//github.com/nsfrahmann/Sunset-Hills" target="_blank" class="modal-btn pl-2">
+                                            <i class="fab fa-github"></i>
+                                            <img src="static/img/right-arrow.png" class="arrow" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-black ml-2">
+                            <div class="col modal-card">
+                                <span>Creator Comment</span>
+                                <p class="description bold">By the time I had finished this coding challenge and mini-site, I had definitely begun to appreciate the intricacies of Javascript and jQuery. It was a challenge to navigate through an array and tailor html for different user inputs, but it definitely set me up for harder problems to come.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Sun Modal-->
     </div>
 
 
@@ -793,7 +1169,7 @@
     <!-- end appear -->
     <!--bootstrap-->
     <script src="static/plugin/bootstrap/js/popper.min.js"></script>
-    <script src="static/plugin/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
     <!--end bootstrap-->
     <script src="static/plugin/pagepiling/jquery.pagepiling.min.js"></script>
     <!-- End -->

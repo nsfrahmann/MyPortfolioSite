@@ -183,9 +183,9 @@ mark {
   background: #0b0b13;
   color: #fff;
 }
-div.social-icons a:hover {
+a.home-social:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 7px 0px rgba(255,255,255,.5);
+    box-shadow: 0px 0px 7px 0px rgba(255,255,255,.4);
 }
 div.social-icons a:active {
     transform:scale(.95);
@@ -420,7 +420,8 @@ div.social-icons a:active {
   }
 }
 #pp-nav {
-  margin-right: 50px;
+  margin-right: 20px;
+  display: none;
 }
 @media (max-width: 991px) {
   #pp-nav {
