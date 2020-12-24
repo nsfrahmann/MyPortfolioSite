@@ -900,6 +900,7 @@ div.social-icons a:active {
 .portfolio-box-01 {
   background: #fff;
   position: relative;
+
 }
 .portfolio-box-01 .portfolio-img {
   position: relative;
@@ -1268,11 +1269,66 @@ div.social-icons a:active {
   text-align: center;
 }
 .home-banner-01 .type-box .img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 550px;
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 30px;
+}
+@media screen and (max-width: 380px) {
+    .home-banner-01 .type-box .img {
+        width: 90%;
+        height: 350px;
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 460px) and (min-width: 381px){
+    .home-banner-01 .type-box .img {
+        width: 90%;
+        height: 375px;
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 461px) {
+    .home-banner-01 .type-box .img {
+        width: 90%;
+        height: 435px;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .home-banner-01 .type-box .img {
+        width: 85%;
+        height: 525px;
+        margin-bottom: 90px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .home-banner-01 .type-box .img {
+        width: 120%;
+        height: 525px;
+        margin-left: -10%;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .home-banner-01 .type-box .img {
+        width: 140%;
+        height: 600px;
+        margin-left: -20%
+    }
+}
+@media screen and (min-width: 991px) {
+    .phone-view {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .not-phone {
+        display: none;
+    }
 }
 .home-banner-01 .type-box h1 {
   font-size: 45px;

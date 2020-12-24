@@ -88,13 +88,55 @@ div.second:hover .back {
 
 .portfolio-img .img {
     padding: 10px;
-    height: 347px;
-    width: 347px;
+    height: 320px;
+    width: 100%;
     object-fit: cover;
+}
+
+@media screen and (min-height: 800px) {
+    .portfolio-img .img {
+        height:350px;
+    }
 }
 
 .modal-img {
     margin-left: -15px;
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.modal-content {
+    max-height: 99vh !important;
+}
+
+@media screen and (max-width: 991px) {
+    .modal-img {
+        display: none;
+    }
+    .modal-content {
+        width: 98vw !important;
+    }
+    .modal-card {
+        margin-left: 15px !important;
+    }
+    .phone-com {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modal-phone-img { 
+        display: none
+    }
+}
+
+.modal-phone-img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 55%;
+    bottom: 4%
 }
 
 .modal-header {
@@ -111,6 +153,10 @@ div.second:hover .back {
 
 .modal::-webkit-scrollbar {
     display: none !important;
+}
+
+.modal-content {
+    border-radius: 0 !important;
 }
 
 .modal-dialog {
@@ -178,4 +224,8 @@ div.modal-card span:after {
 
 .description {
     padding-left: 10px;
+}
+
+.swal2-modal {
+    border-radius: 0 !important;
 }
